@@ -1,0 +1,1033 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:owl="http://www.w3.org/2002/07/owl#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+   xmlns:uexvocab="http://www.uniandes.web.semantica.ejemplo.org/voca#"
+>
+  <rdf:Description rdf:about="http://www.uniandes.web.semantica.ejemplo.org/voca#Pizza_ingrediente">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <owl:sameAs rdf:resource="http://www.uniandes.web.semantica.ejemplo.org/voca#Pizza_ingrediente"/>
+    <rdfs:subClassOf rdf:resource="http://www.uniandes.web.semantica.ejemplo.org/voca#Pizza_ingrediente"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <owl:equivalentClass rdf:resource="http://www.uniandes.web.semantica.ejemplo.org/voca#Pizza_ingrediente"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Class">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <owl:sameAs rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.uniandes.web.semantica.ejemplo.org/voca#Champiñon">
+    <rdfs:subClassOf rdf:resource="http://www.uniandes.web.semantica.ejemplo.org/voca#Ingrediente_vegetales"/>
+    <rdfs:subClassOf rdf:resource="http://www.uniandes.web.semantica.ejemplo.org/voca#Pizza_ingrediente"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <owl:sameAs rdf:resource="http://www.uniandes.web.semantica.ejemplo.org/voca#Champiñon"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">
+    <owl:sameAs rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <owl:equivalentProperty rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.uniandes.web.semantica.ejemplo.org/voca#Pizza">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <owl:sameAs rdf:resource="http://www.uniandes.web.semantica.ejemplo.org/voca#Pizza"/>
+    <rdfs:subClassOf rdf:resource="http://www.uniandes.web.semantica.ejemplo.org/voca#Pizza"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <owl:equivalentClass rdf:resource="http://www.uniandes.web.semantica.ejemplo.org/voca#Pizza"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.uniandes.web.semantica.ejemplo.org/voca#esIngredienteDe">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:domain rdf:resource="http://www.uniandes.web.semantica.ejemplo.org/voca#Pizza_ingrediente"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:range rdf:resource="http://www.uniandes.web.semantica.ejemplo.org/voca#Pizza"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <owl:inverseOf rdf:resource="http://www.uniandes.web.semantica.ejemplo.org/voca#tieneIngrediente"/>
+    <owl:equivalentProperty rdf:resource="http://www.uniandes.web.semantica.ejemplo.org/voca#esIngredienteDe"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.uniandes.web.semantica.ejemplo.org/voca#esIngredienteDe"/>
+    <owl:sameAs rdf:resource="http://www.uniandes.web.semantica.ejemplo.org/voca#esIngredienteDe"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.uniandes.web.semantica.ejemplo.org/voca#Hawaiana">
+    <rdfs:subClassOf rdf:resource="http://www.uniandes.web.semantica.ejemplo.org/voca#Pizza"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <owl:sameAs rdf:resource="http://www.uniandes.web.semantica.ejemplo.org/voca#Hawaiana"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#inverseOf">
+    <owl:sameAs rdf:resource="http://www.w3.org/2002/07/owl#inverseOf"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <owl:equivalentProperty rdf:resource="http://www.w3.org/2002/07/owl#inverseOf"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#inverseOf"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#equivalentClass">
+    <owl:sameAs rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <owl:equivalentProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#backwardCompatibleWith">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <owl:sameAs rdf:resource="http://www.w3.org/2002/07/owl#backwardCompatibleWith"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#decimal">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DataRange"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <owl:sameAs rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.uniandes.web.semantica.ejemplo.org/voca#Pizza_base">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:subClassOf rdf:resource="http://www.uniandes.web.semantica.ejemplo.org/voca#Pizza_base"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <owl:sameAs rdf:resource="http://www.uniandes.web.semantica.ejemplo.org/voca#Pizza_base"/>
+    <owl:equivalentClass rdf:resource="http://www.uniandes.web.semantica.ejemplo.org/voca#Pizza_base"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#unsignedInt">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DataRange"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+    <owl:sameAs rdf:resource="http://www.w3.org/2001/XMLSchema#unsignedInt"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.uniandes.web.semantica.example.org/Crema">
+    <rdf:type rdf:resource="http://www.uniandes.web.semantica.ejemplo.org/voca#Crema"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.uniandes.web.semantica.ejemplo.org/voca#Salsas"/>
+    <rdf:type rdf:resource="http://www.uniandes.web.semantica.ejemplo.org/voca#Pizza_ingrediente"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <uexvocab:esIngredienteDe rdf:resource="http://www.uniandes.web.semantica.example.org/Mariscos"/>
+    <uexvocab:esIngredienteDe rdf:resource="http://www.uniandes.web.semantica.example.org/Vegetariana"/>
+    <owl:sameAs rdf:resource="http://www.uniandes.web.semantica.example.org/Crema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.uniandes.web.semantica.example.org/Jalapeños">
+    <rdf:type rdf:resource="http://www.uniandes.web.semantica.ejemplo.org/voca#Jalapeños"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.uniandes.web.semantica.ejemplo.org/voca#Ingrediente_vegetales"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.uniandes.web.semantica.ejemplo.org/voca#Pizza_ingrediente"/>
+    <owl:sameAs rdf:resource="http://www.uniandes.web.semantica.example.org/Jalapeños"/>
+    <uexvocab:esIngredienteDe rdf:resource="http://www.uniandes.web.semantica.example.org/Mexicana"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#token">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DataRange"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+    <owl:sameAs rdf:resource="http://www.w3.org/2001/XMLSchema#token"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.uniandes.web.semantica.ejemplo.org/voca#Palmitos">
+    <rdfs:subClassOf rdf:resource="http://www.uniandes.web.semantica.ejemplo.org/voca#Ingrediente_mariscos"/>
+    <rdfs:subClassOf rdf:resource="http://www.uniandes.web.semantica.ejemplo.org/voca#Pizza_ingrediente"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <owl:sameAs rdf:resource="http://www.uniandes.web.semantica.ejemplo.org/voca#Palmitos"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#sameAs">
+    <owl:sameAs rdf:resource="http://www.w3.org/2002/07/owl#sameAs"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#sameAs"/>
+    <owl:equivalentProperty rdf:resource="http://www.w3.org/2002/07/owl#sameAs"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.uniandes.web.semantica.example.org/Carnes">
+    <rdf:type rdf:resource="http://www.uniandes.web.semantica.ejemplo.org/voca#Carnes"/>
+    <rdf:type rdf:resource="http://www.uniandes.web.semantica.ejemplo.org/voca#Pizza"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.uniandes.web.semantica.ejemplo.org/voca#Pizza_base"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <uexvocab:tieneIngrediente rdf:resource="http://www.uniandes.web.semantica.example.org/Carne_desmechada"/>
+    <uexvocab:tieneIngrediente rdf:resource="http://www.uniandes.web.semantica.example.org/Aceitunas"/>
+    <uexvocab:tieneIngrediente rdf:resource="http://www.uniandes.web.semantica.example.org/Tomate"/>
+    <uexvocab:tieneIngrediente rdf:resource="http://www.uniandes.web.semantica.example.org/Pepperoni"/>
+    <uexvocab:tieneIngrediente rdf:resource="http://www.uniandes.web.semantica.example.org/Mozzarella"/>
+    <uexvocab:tieneBase rdf:resource="http://www.uniandes.web.semantica.example.org/Masa_delgada"/>
+    <owl:sameAs rdf:resource="http://www.uniandes.web.semantica.example.org/Carnes"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#int">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DataRange"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <owl:sameAs rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.uniandes.web.semantica.example.org/Hawaiana">
+    <rdf:type rdf:resource="http://www.uniandes.web.semantica.ejemplo.org/voca#Hawaiana"/>
+    <rdf:type rdf:resource="http://www.uniandes.web.semantica.ejemplo.org/voca#Pizza"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.uniandes.web.semantica.ejemplo.org/voca#Pizza_base"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <uexvocab:tieneIngrediente rdf:resource="http://www.uniandes.web.semantica.example.org/Jamon"/>
+    <uexvocab:tieneIngrediente rdf:resource="http://www.uniandes.web.semantica.example.org/Tomate"/>
+    <uexvocab:tieneIngrediente rdf:resource="http://www.uniandes.web.semantica.example.org/Piña"/>
+    <uexvocab:tieneIngrediente rdf:resource="http://www.uniandes.web.semantica.example.org/Mozzarella"/>
+    <uexvocab:tieneBase rdf:resource="http://www.uniandes.web.semantica.example.org/Masa_delgada"/>
+    <owl:sameAs rdf:resource="http://www.uniandes.web.semantica.example.org/Hawaiana"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#boolean">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DataRange"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+    <owl:sameAs rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#priorVersion">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <owl:sameAs rdf:resource="http://www.w3.org/2002/07/owl#priorVersion"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.uniandes.web.semantica.ejemplo.org/voca#Carne_desmechada">
+    <rdfs:subClassOf rdf:resource="http://www.uniandes.web.semantica.ejemplo.org/voca#Ingrediente_carnes"/>
+    <rdfs:subClassOf rdf:resource="http://www.uniandes.web.semantica.ejemplo.org/voca#Pizza_ingrediente"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <owl:sameAs rdf:resource="http://www.uniandes.web.semantica.ejemplo.org/voca#Carne_desmechada"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.uniandes.web.semantica.example.org/Piña">
+    <rdf:type rdf:resource="http://www.uniandes.web.semantica.ejemplo.org/voca#Piña"/>
+    <rdf:type rdf:resource="http://www.uniandes.web.semantica.ejemplo.org/voca#Ingrediente_fruta"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.uniandes.web.semantica.ejemplo.org/voca#Pizza_ingrediente"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <owl:sameAs rdf:resource="http://www.uniandes.web.semantica.example.org/Piña"/>
+    <uexvocab:esIngredienteDe rdf:resource="http://www.uniandes.web.semantica.example.org/Hawaiana"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.uniandes.web.semantica.example.org/Pepperoni">
+    <rdf:type rdf:resource="http://www.uniandes.web.semantica.ejemplo.org/voca#Pepperoni"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.uniandes.web.semantica.ejemplo.org/voca#Ingrediente_carnes"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.uniandes.web.semantica.ejemplo.org/voca#Pizza_ingrediente"/>
+    <owl:sameAs rdf:resource="http://www.uniandes.web.semantica.example.org/Pepperoni"/>
+    <uexvocab:esIngredienteDe rdf:resource="http://www.uniandes.web.semantica.example.org/Carnes"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.uniandes.web.semantica.example.org/Masa_delgada">
+    <rdf:type rdf:resource="http://www.uniandes.web.semantica.ejemplo.org/voca#Masa_delgada"/>
+    <rdf:type rdf:resource="http://www.uniandes.web.semantica.ejemplo.org/voca#Pizza_base"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <uexvocab:esBaseDe rdf:resource="http://www.uniandes.web.semantica.example.org/Carnes"/>
+    <uexvocab:esBaseDe rdf:resource="http://www.uniandes.web.semantica.example.org/Hawaiana"/>
+    <uexvocab:esBaseDe rdf:resource="http://www.uniandes.web.semantica.example.org/Vegetariana"/>
+    <owl:sameAs rdf:resource="http://www.uniandes.web.semantica.example.org/Masa_delgada"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DataRange"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <owl:sameAs rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.uniandes.web.semantica.ejemplo.org/voca#Ingrediente_carnes">
+    <rdfs:subClassOf rdf:resource="http://www.uniandes.web.semantica.ejemplo.org/voca#Pizza_ingrediente"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <owl:sameAs rdf:resource="http://www.uniandes.web.semantica.ejemplo.org/voca#Ingrediente_carnes"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.uniandes.web.semantica.example.org/Mozzarella">
+    <rdf:type rdf:resource="http://www.uniandes.web.semantica.ejemplo.org/voca#Mozzarella"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.uniandes.web.semantica.ejemplo.org/voca#Ingrediente_queso"/>
+    <rdf:type rdf:resource="http://www.uniandes.web.semantica.ejemplo.org/voca#Pizza_ingrediente"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <uexvocab:esIngredienteDe rdf:resource="http://www.uniandes.web.semantica.example.org/Carnes"/>
+    <uexvocab:esIngredienteDe rdf:resource="http://www.uniandes.web.semantica.example.org/Mexicana"/>
+    <uexvocab:esIngredienteDe rdf:resource="http://www.uniandes.web.semantica.example.org/Hawaiana"/>
+    <owl:sameAs rdf:resource="http://www.uniandes.web.semantica.example.org/Mozzarella"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#range">
+    <owl:sameAs rdf:resource="http://www.w3.org/2000/01/rdf-schema#range"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#range"/>
+    <owl:equivalentProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#range"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.uniandes.web.semantica.ejemplo.org/voca#Ingrediente_fruta">
+    <rdfs:subClassOf rdf:resource="http://www.uniandes.web.semantica.ejemplo.org/voca#Pizza_ingrediente"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <owl:sameAs rdf:resource="http://www.uniandes.web.semantica.ejemplo.org/voca#Ingrediente_fruta"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.uniandes.web.semantica.ejemplo.org/voca#Mexicana">
+    <rdfs:subClassOf rdf:resource="http://www.uniandes.web.semantica.ejemplo.org/voca#Pizza"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <owl:sameAs rdf:resource="http://www.uniandes.web.semantica.ejemplo.org/voca#Mexicana"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#unsignedLong">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DataRange"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <owl:sameAs rdf:resource="http://www.w3.org/2001/XMLSchema#unsignedLong"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.uniandes.web.semantica.ejemplo.org/voca#esBaseDe">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:domain rdf:resource="http://www.uniandes.web.semantica.ejemplo.org/voca#Pizza_base"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:range rdf:resource="http://www.uniandes.web.semantica.ejemplo.org/voca#Pizza_base"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <owl:inverseOf rdf:resource="http://www.uniandes.web.semantica.ejemplo.org/voca#tieneBase"/>
+    <owl:equivalentProperty rdf:resource="http://www.uniandes.web.semantica.ejemplo.org/voca#esBaseDe"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.uniandes.web.semantica.ejemplo.org/voca#esBaseDe"/>
+    <owl:sameAs rdf:resource="http://www.uniandes.web.semantica.ejemplo.org/voca#esBaseDe"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.uniandes.web.semantica.ejemplo.org/voca#Pepperoni">
+    <rdfs:subClassOf rdf:resource="http://www.uniandes.web.semantica.ejemplo.org/voca#Ingrediente_carnes"/>
+    <rdfs:subClassOf rdf:resource="http://www.uniandes.web.semantica.ejemplo.org/voca#Pizza_ingrediente"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <owl:sameAs rdf:resource="http://www.uniandes.web.semantica.ejemplo.org/voca#Pepperoni"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.uniandes.web.semantica.ejemplo.org/voca#Piña">
+    <rdfs:subClassOf rdf:resource="http://www.uniandes.web.semantica.ejemplo.org/voca#Ingrediente_fruta"/>
+    <rdfs:subClassOf rdf:resource="http://www.uniandes.web.semantica.ejemplo.org/voca#Pizza_ingrediente"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <owl:sameAs rdf:resource="http://www.uniandes.web.semantica.ejemplo.org/voca#Piña"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DataRange"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <owl:sameAs rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#Name">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DataRange"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+    <owl:sameAs rdf:resource="http://www.w3.org/2001/XMLSchema#Name"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.uniandes.web.semantica.example.org/Aceitunas">
+    <rdf:type rdf:resource="http://www.uniandes.web.semantica.ejemplo.org/voca#Aceitunas"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.uniandes.web.semantica.ejemplo.org/voca#Ingrediente_vegetales"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.uniandes.web.semantica.ejemplo.org/voca#Pizza_ingrediente"/>
+    <owl:sameAs rdf:resource="http://www.uniandes.web.semantica.example.org/Aceitunas"/>
+    <uexvocab:esIngredienteDe rdf:resource="http://www.uniandes.web.semantica.example.org/Carnes"/>
+    <uexvocab:esIngredienteDe rdf:resource="http://www.uniandes.web.semantica.example.org/Vegetariana"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Thing">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <owl:sameAs rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.uniandes.web.semantica.ejemplo.org/voca#tieneBase">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <owl:sameAs rdf:resource="http://www.uniandes.web.semantica.ejemplo.org/voca#tieneBase"/>
+    <owl:equivalentProperty rdf:resource="http://www.uniandes.web.semantica.ejemplo.org/voca#tieneBase"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.uniandes.web.semantica.ejemplo.org/voca#tieneBase"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.uniandes.web.semantica.example.org/Pimenton">
+    <rdf:type rdf:resource="http://www.uniandes.web.semantica.ejemplo.org/voca#Pimenton"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.uniandes.web.semantica.ejemplo.org/voca#Ingrediente_vegetales"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.uniandes.web.semantica.ejemplo.org/voca#Pizza_ingrediente"/>
+    <uexvocab:esIngredienteDe rdf:resource="http://www.uniandes.web.semantica.example.org/Vegetariana"/>
+    <uexvocab:esIngredienteDe rdf:resource="http://www.uniandes.web.semantica.example.org/Mexicana"/>
+    <owl:sameAs rdf:resource="http://www.uniandes.web.semantica.example.org/Pimenton"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#byte">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DataRange"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+    <owl:sameAs rdf:resource="http://www.w3.org/2001/XMLSchema#byte"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#integer">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DataRange"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <owl:sameAs rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.uniandes.web.semantica.ejemplo.org/voca#Ingrediente_queso">
+    <rdfs:subClassOf rdf:resource="http://www.uniandes.web.semantica.ejemplo.org/voca#Pizza_ingrediente"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <owl:sameAs rdf:resource="http://www.uniandes.web.semantica.ejemplo.org/voca#Ingrediente_queso"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#float">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DataRange"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <owl:sameAs rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#subPropertyOf">
+    <owl:sameAs rdf:resource="http://www.w3.org/2000/01/rdf-schema#subPropertyOf"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#subPropertyOf"/>
+    <owl:equivalentProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subPropertyOf"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#seeAlso">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <owl:sameAs rdf:resource="http://www.w3.org/2000/01/rdf-schema#seeAlso"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#language">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DataRange"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <owl:sameAs rdf:resource="http://www.w3.org/2001/XMLSchema#language"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.uniandes.web.semantica.ejemplo.org/voca#Mozzarella">
+    <rdfs:subClassOf rdf:resource="http://www.uniandes.web.semantica.ejemplo.org/voca#Ingrediente_queso"/>
+    <rdfs:subClassOf rdf:resource="http://www.uniandes.web.semantica.ejemplo.org/voca#Pizza_ingrediente"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <owl:sameAs rdf:resource="http://www.uniandes.web.semantica.ejemplo.org/voca#Mozzarella"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.uniandes.web.semantica.ejemplo.org/voca#Masa_gruesa">
+    <rdfs:subClassOf rdf:resource="http://www.uniandes.web.semantica.ejemplo.org/voca#Pizza_base"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <owl:sameAs rdf:resource="http://www.uniandes.web.semantica.ejemplo.org/voca#Masa_gruesa"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.uniandes.web.semantica.example.org/Vegetariana">
+    <rdf:type rdf:resource="http://www.uniandes.web.semantica.ejemplo.org/voca#Vegetariana"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.uniandes.web.semantica.ejemplo.org/voca#Pizza"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.uniandes.web.semantica.ejemplo.org/voca#Pizza_base"/>
+    <uexvocab:tieneIngrediente rdf:resource="http://www.uniandes.web.semantica.example.org/Aceitunas"/>
+    <uexvocab:tieneIngrediente rdf:resource="http://www.uniandes.web.semantica.example.org/Crema"/>
+    <uexvocab:tieneIngrediente rdf:resource="http://www.uniandes.web.semantica.example.org/Pimenton"/>
+    <uexvocab:tieneBase rdf:resource="http://www.uniandes.web.semantica.example.org/Masa_delgada"/>
+    <owl:sameAs rdf:resource="http://www.uniandes.web.semantica.example.org/Vegetariana"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.uniandes.web.semantica.ejemplo.org/voca#Parmesano">
+    <rdfs:subClassOf rdf:resource="http://www.uniandes.web.semantica.ejemplo.org/voca#Ingrediente_queso"/>
+    <rdfs:subClassOf rdf:resource="http://www.uniandes.web.semantica.ejemplo.org/voca#Pizza_ingrediente"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <owl:sameAs rdf:resource="http://www.uniandes.web.semantica.ejemplo.org/voca#Parmesano"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#anyURI">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DataRange"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <owl:sameAs rdf:resource="http://www.w3.org/2001/XMLSchema#anyURI"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.uniandes.web.semantica.example.org/Mexicana">
+    <rdf:type rdf:resource="http://www.uniandes.web.semantica.ejemplo.org/voca#Mexicana"/>
+    <rdf:type rdf:resource="http://www.uniandes.web.semantica.ejemplo.org/voca#Pizza"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.uniandes.web.semantica.ejemplo.org/voca#Pizza_base"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <uexvocab:tieneIngrediente rdf:resource="http://www.uniandes.web.semantica.example.org/Mozzarella"/>
+    <uexvocab:tieneIngrediente rdf:resource="http://www.uniandes.web.semantica.example.org/Jalapeños"/>
+    <uexvocab:tieneIngrediente rdf:resource="http://www.uniandes.web.semantica.example.org/Pimenton"/>
+    <uexvocab:tieneIngrediente rdf:resource="http://www.uniandes.web.semantica.example.org/Picante"/>
+    <uexvocab:tieneIngrediente rdf:resource="http://www.uniandes.web.semantica.example.org/Carne_desmechada"/>
+    <uexvocab:tieneBase rdf:resource="http://www.uniandes.web.semantica.example.org/Masa_gruesa"/>
+    <owl:sameAs rdf:resource="http://www.uniandes.web.semantica.example.org/Mexicana"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#string">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DataRange"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+    <owl:sameAs rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#HTML">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DataRange"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <owl:sameAs rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#HTML"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#short">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DataRange"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <owl:sameAs rdf:resource="http://www.w3.org/2001/XMLSchema#short"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#subClassOf">
+    <owl:sameAs rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <owl:equivalentProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.uniandes.web.semantica.example.org/Parmesano">
+    <rdf:type rdf:resource="http://www.uniandes.web.semantica.ejemplo.org/voca#Parmesano"/>
+    <rdf:type rdf:resource="http://www.uniandes.web.semantica.ejemplo.org/voca#Ingrediente_queso"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.uniandes.web.semantica.ejemplo.org/voca#Pizza_ingrediente"/>
+    <owl:sameAs rdf:resource="http://www.uniandes.web.semantica.example.org/Parmesano"/>
+    <uexvocab:esIngredienteDe rdf:resource="http://www.uniandes.web.semantica.example.org/Mariscos"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#base64Binary">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DataRange"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <owl:sameAs rdf:resource="http://www.w3.org/2001/XMLSchema#base64Binary"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.uniandes.web.semantica.ejemplo.org/voca#Pimenton">
+    <rdfs:subClassOf rdf:resource="http://www.uniandes.web.semantica.ejemplo.org/voca#Ingrediente_vegetales"/>
+    <rdfs:subClassOf rdf:resource="http://www.uniandes.web.semantica.ejemplo.org/voca#Pizza_ingrediente"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <owl:sameAs rdf:resource="http://www.uniandes.web.semantica.ejemplo.org/voca#Pimenton"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#nonPositiveInteger">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DataRange"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <owl:sameAs rdf:resource="http://www.w3.org/2001/XMLSchema#nonPositiveInteger"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#dateTime">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DataRange"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+    <owl:sameAs rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.uniandes.web.semantica.example.org/Mariscos">
+    <rdf:type rdf:resource="http://www.uniandes.web.semantica.ejemplo.org/voca#Mariscos"/>
+    <rdf:type rdf:resource="http://www.uniandes.web.semantica.ejemplo.org/voca#Pizza"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.uniandes.web.semantica.ejemplo.org/voca#Pizza_base"/>
+    <uexvocab:tieneIngrediente rdf:resource="http://www.uniandes.web.semantica.example.org/Camaron"/>
+    <uexvocab:tieneIngrediente rdf:resource="http://www.uniandes.web.semantica.example.org/Crema"/>
+    <uexvocab:tieneIngrediente rdf:resource="http://www.uniandes.web.semantica.example.org/Parmesano"/>
+    <uexvocab:tieneBase rdf:resource="http://www.uniandes.web.semantica.example.org/Masa_gruesa"/>
+    <owl:sameAs rdf:resource="http://www.uniandes.web.semantica.example.org/Mariscos"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.uniandes.web.semantica.ejemplo.org/voca#Mariscos">
+    <rdfs:subClassOf rdf:resource="http://www.uniandes.web.semantica.ejemplo.org/voca#Pizza"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <owl:sameAs rdf:resource="http://www.uniandes.web.semantica.ejemplo.org/voca#Mariscos"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#hexBinary">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DataRange"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <owl:sameAs rdf:resource="http://www.w3.org/2001/XMLSchema#hexBinary"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#deprecated">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <owl:sameAs rdf:resource="http://www.w3.org/2002/07/owl#deprecated"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.uniandes.web.semantica.ejemplo.org/voca#Aceitunas">
+    <rdfs:subClassOf rdf:resource="http://www.uniandes.web.semantica.ejemplo.org/voca#Ingrediente_vegetales"/>
+    <rdfs:subClassOf rdf:resource="http://www.uniandes.web.semantica.ejemplo.org/voca#Pizza_ingrediente"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <owl:sameAs rdf:resource="http://www.uniandes.web.semantica.ejemplo.org/voca#Aceitunas"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#date">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DataRange"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <owl:sameAs rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#Resource">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <owl:sameAs rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.uniandes.web.semantica.example.org/Picante">
+    <rdf:type rdf:resource="http://www.uniandes.web.semantica.ejemplo.org/voca#Picante"/>
+    <rdf:type rdf:resource="http://www.uniandes.web.semantica.ejemplo.org/voca#Salsas"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.uniandes.web.semantica.ejemplo.org/voca#Pizza_ingrediente"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <uexvocab:esIngredienteDe rdf:resource="http://www.uniandes.web.semantica.example.org/Mexicana"/>
+    <owl:sameAs rdf:resource="http://www.uniandes.web.semantica.example.org/Picante"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.uniandes.web.semantica.example.org/Tomate">
+    <rdf:type rdf:resource="http://www.uniandes.web.semantica.ejemplo.org/voca#Tomate"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.uniandes.web.semantica.ejemplo.org/voca#Salsas"/>
+    <rdf:type rdf:resource="http://www.uniandes.web.semantica.ejemplo.org/voca#Pizza_ingrediente"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <uexvocab:esIngredienteDe rdf:resource="http://www.uniandes.web.semantica.example.org/Carnes"/>
+    <uexvocab:esIngredienteDe rdf:resource="http://www.uniandes.web.semantica.example.org/Hawaiana"/>
+    <owl:sameAs rdf:resource="http://www.uniandes.web.semantica.example.org/Tomate"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.uniandes.web.semantica.ejemplo.org/voca#Ingrediente_mariscos">
+    <rdfs:subClassOf rdf:resource="http://www.uniandes.web.semantica.ejemplo.org/voca#Pizza_ingrediente"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <owl:sameAs rdf:resource="http://www.uniandes.web.semantica.ejemplo.org/voca#Ingrediente_mariscos"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#normalizedString">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DataRange"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <owl:sameAs rdf:resource="http://www.w3.org/2001/XMLSchema#normalizedString"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.uniandes.web.semantica.ejemplo.org/voca#Carnes">
+    <rdfs:subClassOf rdf:resource="http://www.uniandes.web.semantica.ejemplo.org/voca#Pizza"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <owl:sameAs rdf:resource="http://www.uniandes.web.semantica.ejemplo.org/voca#Carnes"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.uniandes.web.semantica.ejemplo.org/voca#Salsas">
+    <rdfs:subClassOf rdf:resource="http://www.uniandes.web.semantica.ejemplo.org/voca#Pizza_ingrediente"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <owl:sameAs rdf:resource="http://www.uniandes.web.semantica.ejemplo.org/voca#Salsas"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Nothing">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:subClassOf rdf:resource="http://www.uniandes.web.semantica.ejemplo.org/voca#Pizza_base"/>
+    <rdfs:subClassOf rdf:resource="http://www.uniandes.web.semantica.ejemplo.org/voca#Pizza_ingrediente"/>
+    <rdfs:subClassOf rdf:resource="http://www.uniandes.web.semantica.ejemplo.org/voca#Pizza"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    <owl:sameAs rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.uniandes.web.semantica.example.org/Samanta">
+    <rdf:type rdf:resource="http://www.uniandes.web.semantica.ejemplo.org/voca#Pizza"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <owl:sameAs rdf:resource="http://www.uniandes.web.semantica.example.org/Samanta"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#NCName">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DataRange"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <owl:sameAs rdf:resource="http://www.w3.org/2001/XMLSchema#NCName"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#unsignedByte">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DataRange"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+    <owl:sameAs rdf:resource="http://www.w3.org/2001/XMLSchema#unsignedByte"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#NMTOKEN">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DataRange"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <owl:sameAs rdf:resource="http://www.w3.org/2001/XMLSchema#NMTOKEN"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#comment">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <owl:sameAs rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DataRange"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+    <owl:sameAs rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.uniandes.web.semantica.ejemplo.org/voca#Masa_delgada">
+    <rdfs:subClassOf rdf:resource="http://www.uniandes.web.semantica.ejemplo.org/voca#Pizza_base"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <owl:sameAs rdf:resource="http://www.uniandes.web.semantica.ejemplo.org/voca#Masa_delgada"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#AnnotationProperty">
+    <owl:sameAs rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.uniandes.web.semantica.ejemplo.org/voca#Camaron">
+    <rdfs:subClassOf rdf:resource="http://www.uniandes.web.semantica.ejemplo.org/voca#Ingrediente_mariscos"/>
+    <rdfs:subClassOf rdf:resource="http://www.uniandes.web.semantica.ejemplo.org/voca#Pizza_ingrediente"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <owl:sameAs rdf:resource="http://www.uniandes.web.semantica.ejemplo.org/voca#Camaron"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.uniandes.web.semantica.ejemplo.org/voca#tieneIngrediente">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <owl:equivalentProperty rdf:resource="http://www.uniandes.web.semantica.ejemplo.org/voca#tieneIngrediente"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.uniandes.web.semantica.ejemplo.org/voca#tieneIngrediente"/>
+    <owl:sameAs rdf:resource="http://www.uniandes.web.semantica.ejemplo.org/voca#tieneIngrediente"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.uniandes.web.semantica.ejemplo.org/voca#Jalapeños">
+    <rdfs:subClassOf rdf:resource="http://www.uniandes.web.semantica.ejemplo.org/voca#Ingrediente_vegetales"/>
+    <rdfs:subClassOf rdf:resource="http://www.uniandes.web.semantica.ejemplo.org/voca#Pizza_ingrediente"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <owl:sameAs rdf:resource="http://www.uniandes.web.semantica.ejemplo.org/voca#Jalapeños"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#Class">
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <owl:sameAs rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#DataRange">
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2002/07/owl#DataRange"/>
+    <owl:sameAs rdf:resource="http://www.w3.org/2002/07/owl#DataRange"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#DataRange"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.uniandes.web.semantica.ejemplo.org/voca#Vegetariana">
+    <rdfs:subClassOf rdf:resource="http://www.uniandes.web.semantica.ejemplo.org/voca#Pizza"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <owl:sameAs rdf:resource="http://www.uniandes.web.semantica.ejemplo.org/voca#Vegetariana"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#Datatype">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#DataRange"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+    <owl:sameAs rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2002/07/owl#DataRange"/>
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#double">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DataRange"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+    <owl:sameAs rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#long">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DataRange"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+    <owl:sameAs rdf:resource="http://www.w3.org/2001/XMLSchema#long"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#negativeInteger">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DataRange"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+    <owl:sameAs rdf:resource="http://www.w3.org/2001/XMLSchema#negativeInteger"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#Literal">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DataRange"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <owl:sameAs rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#time">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DataRange"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <owl:sameAs rdf:resource="http://www.w3.org/2001/XMLSchema#time"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#dateTimeStamp">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DataRange"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+    <owl:sameAs rdf:resource="http://www.w3.org/2001/XMLSchema#dateTimeStamp"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#positiveInteger">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DataRange"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+    <owl:sameAs rdf:resource="http://www.w3.org/2001/XMLSchema#positiveInteger"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.uniandes.web.semantica.ejemplo.org/voca#Crema">
+    <rdfs:subClassOf rdf:resource="http://www.uniandes.web.semantica.ejemplo.org/voca#Salsas"/>
+    <rdfs:subClassOf rdf:resource="http://www.uniandes.web.semantica.ejemplo.org/voca#Pizza_ingrediente"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <owl:sameAs rdf:resource="http://www.uniandes.web.semantica.ejemplo.org/voca#Crema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#domain">
+    <owl:sameAs rdf:resource="http://www.w3.org/2000/01/rdf-schema#domain"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <owl:equivalentProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#domain"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#domain"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.uniandes.web.semantica.example.org/Masa_gruesa">
+    <rdf:type rdf:resource="http://www.uniandes.web.semantica.ejemplo.org/voca#Masa_gruesa"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.uniandes.web.semantica.ejemplo.org/voca#Pizza_base"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <uexvocab:esBaseDe rdf:resource="http://www.uniandes.web.semantica.example.org/Mariscos"/>
+    <uexvocab:esBaseDe rdf:resource="http://www.uniandes.web.semantica.example.org/Mexicana"/>
+    <owl:sameAs rdf:resource="http://www.uniandes.web.semantica.example.org/Masa_gruesa"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#isDefinedBy">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <owl:sameAs rdf:resource="http://www.w3.org/2000/01/rdf-schema#isDefinedBy"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.uniandes.web.semantica.example.org/Jamon">
+    <rdf:type rdf:resource="http://www.uniandes.web.semantica.ejemplo.org/voca#Jamon"/>
+    <rdf:type rdf:resource="http://www.uniandes.web.semantica.ejemplo.org/voca#Ingrediente_carnes"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.uniandes.web.semantica.ejemplo.org/voca#Pizza_ingrediente"/>
+    <owl:sameAs rdf:resource="http://www.uniandes.web.semantica.example.org/Jamon"/>
+    <uexvocab:esIngredienteDe rdf:resource="http://www.uniandes.web.semantica.example.org/Hawaiana"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#label">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <owl:sameAs rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#unsignedShort">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DataRange"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+    <owl:sameAs rdf:resource="http://www.w3.org/2001/XMLSchema#unsignedShort"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.uniandes.web.semantica.example.org/Camaron">
+    <rdf:type rdf:resource="http://www.uniandes.web.semantica.ejemplo.org/voca#Camaron"/>
+    <rdf:type rdf:resource="http://www.uniandes.web.semantica.ejemplo.org/voca#Ingrediente_mariscos"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.uniandes.web.semantica.ejemplo.org/voca#Pizza_ingrediente"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <owl:sameAs rdf:resource="http://www.uniandes.web.semantica.example.org/Camaron"/>
+    <uexvocab:esIngredienteDe rdf:resource="http://www.uniandes.web.semantica.example.org/Mariscos"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.uniandes.web.semantica.example.org/Carne_desmechada">
+    <rdf:type rdf:resource="http://www.uniandes.web.semantica.ejemplo.org/voca#Carne_desmechada"/>
+    <rdf:type rdf:resource="http://www.uniandes.web.semantica.ejemplo.org/voca#Ingrediente_carnes"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.uniandes.web.semantica.ejemplo.org/voca#Pizza_ingrediente"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <owl:sameAs rdf:resource="http://www.uniandes.web.semantica.example.org/Carne_desmechada"/>
+    <uexvocab:esIngredienteDe rdf:resource="http://www.uniandes.web.semantica.example.org/Carnes"/>
+    <uexvocab:esIngredienteDe rdf:resource="http://www.uniandes.web.semantica.example.org/Mexicana"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.uniandes.web.semantica.example.org/Palmitos">
+    <rdf:type rdf:resource="http://www.uniandes.web.semantica.ejemplo.org/voca#Palmitos"/>
+    <rdf:type rdf:resource="http://www.uniandes.web.semantica.ejemplo.org/voca#Ingrediente_mariscos"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.uniandes.web.semantica.ejemplo.org/voca#Pizza_ingrediente"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <owl:sameAs rdf:resource="http://www.uniandes.web.semantica.example.org/Palmitos"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#incompatibleWith">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <owl:sameAs rdf:resource="http://www.w3.org/2002/07/owl#incompatibleWith"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#equivalentProperty">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <owl:sameAs rdf:resource="http://www.w3.org/2002/07/owl#equivalentProperty"/>
+    <owl:equivalentProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#equivalentProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DataRange"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+    <owl:sameAs rdf:resource="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#versionInfo">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <owl:sameAs rdf:resource="http://www.w3.org/2002/07/owl#versionInfo"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.uniandes.web.semantica.ejemplo.org/voca#Picante">
+    <rdfs:subClassOf rdf:resource="http://www.uniandes.web.semantica.ejemplo.org/voca#Salsas"/>
+    <rdfs:subClassOf rdf:resource="http://www.uniandes.web.semantica.ejemplo.org/voca#Pizza_ingrediente"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <owl:sameAs rdf:resource="http://www.uniandes.web.semantica.ejemplo.org/voca#Picante"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.uniandes.web.semantica.ejemplo.org/voca#Ingrediente_vegetales">
+    <rdfs:subClassOf rdf:resource="http://www.uniandes.web.semantica.ejemplo.org/voca#Pizza_ingrediente"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <owl:sameAs rdf:resource="http://www.uniandes.web.semantica.ejemplo.org/voca#Ingrediente_vegetales"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.uniandes.web.semantica.ejemplo.org/voca#Jamon">
+    <rdfs:subClassOf rdf:resource="http://www.uniandes.web.semantica.ejemplo.org/voca#Ingrediente_carnes"/>
+    <rdfs:subClassOf rdf:resource="http://www.uniandes.web.semantica.ejemplo.org/voca#Pizza_ingrediente"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <owl:sameAs rdf:resource="http://www.uniandes.web.semantica.ejemplo.org/voca#Jamon"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.uniandes.web.semantica.ejemplo.org/voca#Tomate">
+    <rdfs:subClassOf rdf:resource="http://www.uniandes.web.semantica.ejemplo.org/voca#Salsas"/>
+    <rdfs:subClassOf rdf:resource="http://www.uniandes.web.semantica.ejemplo.org/voca#Pizza_ingrediente"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <owl:sameAs rdf:resource="http://www.uniandes.web.semantica.ejemplo.org/voca#Tomate"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.uniandes.web.semantica.example.org/Champiñon">
+    <rdf:type rdf:resource="http://www.uniandes.web.semantica.ejemplo.org/voca#Champiñon"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.uniandes.web.semantica.ejemplo.org/voca#Ingrediente_vegetales"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.uniandes.web.semantica.ejemplo.org/voca#Pizza_ingrediente"/>
+    <owl:sameAs rdf:resource="http://www.uniandes.web.semantica.example.org/Champiñon"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <owl:sameAs rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
+</rdf:RDF>
